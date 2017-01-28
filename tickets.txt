@@ -1,0 +1,17 @@
+Write a football ticket booking system.
+Details:
+1) Display places (number, location, sector) - Visually play
+the stadium is not necessarily enough to make tables (lists of sectors,
+rows of seats).
+2) Real-time display:
+- Places that have already been booked by someone (one place - one person -
+one booking)
+- Places which are now in the process of the reservation
+- The total number of vacant seats in general, in the selected sector (if
+selected)
+PHP 5.6+
+Database: at your discretion, with the expectation that the system
+is highly loaded (30000 online)
+Caching: at your discretion
+Framework: anyone of your choice (if it is necessary)
+Web Server: at your discretion
